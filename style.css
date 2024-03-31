@@ -40,7 +40,7 @@ body{
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
-    z-index: 18;
+    z-index: 9998;
 }
 #title img {
     width: 60px;
@@ -120,11 +120,11 @@ a{
     /* height:160px; */
     overflow-y: hidden;
     overflow-x: auto;
-    background-color: red;
+/*     background-color: red; */
 
 }
 #scroll::-webkit-scrollbar{
-    /* display:none */
+    display:none
 }
 @keyframes anima {
     from{
